@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kişiler Veritabanı Yönetimi</title>
+  <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+    <header>
+    <nav>
+        <ul>
+          <li><a href="index.html">Personel Listesi</a></li>
+          <li><a href="veriekle.html" id="islemler-link">Personel Ekle</a></li>
+        </ul>
+      </nav>
+    </header>
+  <main>
+    <section id="islemler-section">
+      <div class="form-container">
+        <h2>Personel Ekle</h2>
+        <form id="veriEkleForm">
+          <div class="input-group">
+            <input type="text" id="inputAd" placeholder="Ad Giriniz">
+          </div>
+          <div class="input-group">
+            <input type="text" id="inputSoyad" placeholder="Soyad Giriniz" required>
+          </div>
+          <div class="input-group">
+            <input type="text" id="inputTelefon" placeholder="Telefon Numarası Giriniz" required>
+          </div>
+          <div class="input-group">
+            <input type="text" id="inputTarih" placeholder="Doğum Tarihini Giriniz" required>
+          </div>
+          <div class="input-group">
+            <input type="text" id="inputUnvan" placeholder="Ünvan Giriniz" required>
+          </div>
+          <div class="input-group">
+            <input type="text" id="inputMaas" placeholder="Maaş Giriniz" required>
+          </div>
+          <button type="button" id="inputEkle">Veri Ekle</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <script src="veriekle.js"></script>
+</body>
+</html>
